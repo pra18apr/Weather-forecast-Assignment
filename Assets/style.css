@@ -1,0 +1,82 @@
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+header img {
+    float: left;
+}
+
+header {
+    text-align: left;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+    display: inline;
+    position: relative;
+    left: 1px;
+    margin: auto;
+}
+
+footer {
+    flex-shrink: 0;
+    width: 100%;
+    text-align: start;
+    z-index: 0;
+    position: absolute;
+}
+
+/* Weather Icon Styling */
+
+.wi {
+    font-size: 3em;
+    padding: 2rem;
+}
+
+footer .wi {
+    font-size: 1em;
+    padding: 0.5rem;
+}
+
+
+/* Tooltip Styling */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+  }
+
+ .tooltiptext {
+    visibility: hidden;
+    width: 75px;
+    background-color: #f7f7f7;
+    color: #000;
+    text-align: center;
+    word-wrap: normal;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 45%;
+    left: 15%;
+    margin-left: 40px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
